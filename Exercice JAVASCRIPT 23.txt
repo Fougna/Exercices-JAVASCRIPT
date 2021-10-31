@@ -1,0 +1,3 @@
+Ecrire une fonction qui affiche une boite de dialogue alert les entiers compris entre les
+entiers d et f.
+Les valeurs de d et f sont saisies au clavier lors de l’exécution.

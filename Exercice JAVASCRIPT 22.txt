@@ -1,0 +1,2 @@
+Ecrire une fonction nommée moyenne qui permet d’entrer 3 notes
+(DC1, DC2, DS), qui calcule et affiche la moyenne obtenue

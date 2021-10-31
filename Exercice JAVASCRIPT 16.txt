@@ -1,0 +1,2 @@
+Ecrire une page HTML qui affiche automatique la date du jour actuel
+et l’heure (utilisation de la balise <script> et des fonctions write et date.

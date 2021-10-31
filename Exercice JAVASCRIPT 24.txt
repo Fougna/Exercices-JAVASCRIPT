@@ -1,0 +1,3 @@
+Création d'une fonction appellé multiplicaton permettant
+* 1de multiplier deux nombres
+* 2trois nombres
