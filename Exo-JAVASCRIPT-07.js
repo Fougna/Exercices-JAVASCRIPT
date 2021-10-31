@@ -6,7 +6,7 @@ var tableauUser = [
         name : "Doe",
         age : 25,
         permis : true
-    } ,
+    },
     {
         firstname : "Antoine",
         name : "Mauron",
