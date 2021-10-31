@@ -1,4 +1,4 @@
-/* Exercices JavaScript 01
+/* Exercice JavaScript 01 (Conçu par Amin Mangeot)
 
 1. Définir une variable qui se nomme seconde et l’initialiser à 60, afficher le contenu de la variable seconde.*/
 
