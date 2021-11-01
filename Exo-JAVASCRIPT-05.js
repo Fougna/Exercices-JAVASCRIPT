@@ -4,7 +4,8 @@
 Cette boucle devra afficher la phrase "1 tour de boucle" en utilisant console.log().
 Concaténer la variable i au début de la chaîne de caractères.
 Penser à mettre un espace entre la première lettre de la chaîne de caractères et le guillemet.
-(Changer le 1 de “1 tour de boucle” pour que ça corresponde exactement au tour de boucle. Soit “1 tour de boucle” , ensuite “2 tour de boucle” ,“3 tour de boucle”, etc…)*/
+(Changer le 1 de “1 tour de boucle” pour que ça corresponde exactement au tour de boucle. Soit “1 tour de boucle” , ensuite “2 tour de boucle” ,“3 tour de boucle”,
+etc…)*/
 
 var i = 0;
 for (i=1 ; i<5 ; i++){

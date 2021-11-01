@@ -16,14 +16,16 @@ var objet = {
 };
 alert("Bonjour, c'est encore moi : " + objet.prenom + " " + objet.nom);
 
-/*2. Exercice quasi identique au précédent, mais vous n'affectez pas les nom et prénom dans la source, mais en questionnant l'utilisateur pour connaitre son nom et son prénom.*/
+/*2. Exercice quasi identique au précédent, mais vous n'affectez pas les nom et prénom dans la source, mais en questionnant l'utilisateur pour connaitre son nom et
+son prénom.*/
 
 var prenom = prompt("Quel est votre prénom ?", "Tapez votre prénom");
 var nom = prompt("Et quel est votre nom de famille ?", "Tapez votre nom de famille");
 alert("Vous vous appelez : " + prenom + " " + nom);
 
 /*3. Créez 2 variables nombre1 et nombre2 auxquelles vous affecterez respectivement des valeurs numériques.
-Vous en calculerez la somme dont vous affecterez la variable somme et vous afficherez dans une fonction alert() le message suivant : "La somme de nombre1 et de nombre2 est resultat".
+Vous en calculerez la somme dont vous affecterez la variable somme et vous afficherez dans une fonction alert() le message suivant : "La somme de nombre1 et de
+nombre2 est resultat".
 Même exercice en créant une variable type tableau puis une variable type objet. (parseInt())*/
 
 var nombre1 = 48, nombre2 = 45;
@@ -44,7 +46,8 @@ var nbrobj = {
 var resultat2 = nbrobj.nombre1 + nbrobj.nombre2;
 alert("Juste pour rappel : " + nbrobj.nombre1 + " et " + nbrobj.nombre2 + " font toujours : " + resultat2);
 
-/*4. Exercice quasi identique au précédent, mais sans affecter nombre1 et nombre2 dans la source, mais en questionnant l'utilisateur pour connaitre les deux valeurs numériques nombre1 et nombre2, vous effectuerez les 4 opérations et donnerez 4 messages pour les résultats (addition, soustraction, multiplication et division).*/
+/*4. Exercice quasi identique au précédent, mais sans affecter nombre1 et nombre2 dans la source, mais en questionnant l'utilisateur pour connaitre les deux valeurs
+numériques nombre1 et nombre2, vous effectuerez les 4 opérations et donnerez 4 messages pour les résultats (addition, soustraction, multiplication et division).*/
 
 var nombre1 = prompt("Entrez un premier nombre", "Premier nombre");
 var nombre2 = prompt("Entrez un second nombre", "Second nombre");

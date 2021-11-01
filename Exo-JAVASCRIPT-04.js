@@ -56,7 +56,8 @@ Une propriété prenom ayant pour valeur "Vanessa".
 Une propriété phone ayant pour valeur "0612345678".
 Une propriété email ayant pour valeur "vanessa@gmail.com".
 Ajoutez un contact au tableau en utilisant la méthode push sur le tableau contact.
-Le contact aura une propriété nom avec comme valeur "Anna", une propriété phone avec comme valeur "0123456789" et une propriété email avec comme valeur "anna@gmail.com".
+Le contact aura une propriété nom avec comme valeur "Anna", une propriété phone avec comme valeur "0123456789" et une propriété email avec comme valeur
+"anna@gmail.com".
 Sur la ligne suivante, afficher dans la console (en utilisant JSON.stringify()) la valeur du tableau contact.*/
 
 var contact = [{
