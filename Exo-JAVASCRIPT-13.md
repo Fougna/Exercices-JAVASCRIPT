@@ -1,4 +1,4 @@
-## Consigne : Ecrire votre réponse en dessous de la question.  
+## Consigne : Écrire votre réponse en dessous de la question.  
 *Conçu par Amin Mangeot*
 
 
