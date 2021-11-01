@@ -5,8 +5,8 @@ Formater une liste de prénoms (première lettre en majuscule).
 👉 Le résultat doit être un nouveau tableau:  ["John", "Vanessa", "Franck"].*/
 
 var contacts = ["john", "vanessa", "FRANCK"];
-var newcontacts = [];
+var newcontact = [];
 for (i=0 ; i<contacts.length ; i++){
-    newcontacts.push(contacts[i][0].toUpperCase() + contacts[i].slice(1).toLowerCase());
+    newcontact.push(contacts[i].toUpperCase().slice(0,1) + contacts[i].toLowerCase().slice(1));
 };
-console.log(newcontacts);
+console.log(newcontact);
