@@ -25,14 +25,14 @@ var contacts = [
 👉 Dans ce challenge, il faut modifier les numéros de téléphone afin de les afficher en format international +33612345678.
 👉 Le résultat doit être un nouveau tableau.*/
 
-var newcontact = [];
+var indicatif = [];
 for (i=0 ; i<contacts.length ; i++){
-    newcontact.push({
+    indicatif.push({
         prenom : contacts[i].prenom,
-        telephone : "+33" + contacts[i].telephone.slice(1)
-    })
+        telephone : "+33" + contacts[i].telephone.slice(1)    
+    });
 };
-console.log(newcontact);
+console.log(indicatif);
 
 /*3. Admin
 👉 Modifiez votre tableau pour créer une nouvelle propriété “admin” pour chaque contact.
@@ -41,17 +41,19 @@ Cette propriété doit être à true si le contact est admin, à false sinon.
 👉 Le résultat doit être un nouveau tableau.*/
 
 var contactadmin = [];
-for (i=0 ; i<newcontact.length ; i++){
+for (i=0 ; i<indicatif.length ; i++){
     contactadmin.push({
-        prenom : newcontact[i].prenom,
-        telephone : newcontact[i].telephone
-    })
-    if (newcontact[i].prenom == "john"){
+        prenom : indicatif[i].prenom,
+        telephone : indicatif[i].telephone
+    });
+    if (indicatif[i].prenom == "john"){
         contactadmin.push({
-            admin : true})
+            admin : true
+        });
     }else{
         contactadmin.push({
-            admin : false})
-        }
+            admin : false
+        });
     };
+};
 console.log(contactadmin);
