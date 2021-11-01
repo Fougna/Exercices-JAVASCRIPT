@@ -45,34 +45,44 @@ var tableauUser = [
     },
     {
         firstname : "john",
-        nom : "doe",
+        name : "doe",
         age : 26,
         permis : true
     },
     {
         firstname : "Antoine",
-        nom : "Capel",
+        name : "Capel",
         age : 40,
         permis : true
     },
     {
         firstname : "Rachid",
-        nom : "Ein",
+        name : "Ein",
         age : 34,
         permis : true
     }       
-]
+];
 
+/* Vous avez un tableau de user juste au dessus, voici les consignes :
+1. Afficher dans la console l'âge pour chaque utilisateur (utiliser la boucle)*/
 
+for (i=0 ; i<tableauUser.length ; i++){
+    console.log(tableauUser[i].age);
+};
 
-// Vous avez un tableau de user juste au dessus, voici les consignes : 
+/* 2. Mettre dans un nouveau tableau toute les personnes ayant le permis, créer cette variable qui correspondra au tableau avant la boucle.
+Le tableau s'appellera tableauPermis.
+Voici les étapes :
+- Initaliser une variable tableauPermis (soit un tableau vide).
+- Créer votre boucle par rapport à tableauUser.
+- Il va falloir créer une condition qui à chaque tour de boucle va checker si la personne à le permis ou pas.
+- Si elle a le permis je met cette personne dans tableauPermis.
+- Faire un console.log de tableauPermis après la boucle pour vérifier votre résultat final.*/
 
-// 1. Afficher dans la console l'age pour chaque utilisateur (utiliser la boucle)
-// 2. Me mettre dans un nouveau tableau toute les personnes ayant le permis, créer cette variable qui correspondra au tableau avant la boucle
-// le  tableau s'appellera tableauPermis,
-//  voci les étapes :
-                    // Initaliser une variable tableauPermis (soit un tableau vide)
-                    // Créer votre boucle par rapport à tableauUser
-                    // Il va falloir créer une condition qui à chaque tour de boucle va checker si la personne à le permis ou pas
-                    // Si elle a le permis je met cette personne dans tableauPermis
-                    // Faire un console.log de tableauPermis après la boucle pour vérifier votre résultat final
+var tableauPermis = [];
+for (i=0 ; i<tableauUser.length ; i++){
+    if (tableauUser[i].permis){
+        tableauPermis.push(tableauUser[i])
+    };
+};
+console.log(tableauPermis);
