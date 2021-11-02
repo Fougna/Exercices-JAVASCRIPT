@@ -53,8 +53,46 @@ racine(parseInt(resultat));
 
 /*5. Écrire un script affichant la moyenne d’un tableau.*/
 
+var tableau = [24, 235, 4, 15, 17];
+var somme = 0;
+var total = 0;
+
+function average (tableau){
+    for (i=0 ; i<tableau.length ; i++){
+        somme += tableau[i];
+    };
+    total = somme/tableau.length;
+    alert("La moyenne totale de " + tableau[0] + ", " + tableau[1] + ", " + tableau[2] + ", " + tableau[3] + " et " + tableau[4] + " est égale à : " + total)
+};
+
+average(tableau);
+
 /*6. Écrire un script affichant des * n fois.*/
+
+function stargenerator (etoile){
+    alert("Voici vos " + star.repeat(etoile) + " étoiles");
+    };
+var star = "*"
+var etoile = prompt("Combien d'étoiles voulez-vous voir apparaître ?","Nombre d'étoiles");
+
+stargenerator(parseInt(etoile));
 
 /*7. Écrire un script qui permet d'afficher la table de multiplication d'un nombre entier n : La valeur de n sera demandée à l’utilisateur via une boîte de dialogue.*/
 
-/*8. Écrire un script qui calcule la factorielle d’un nombre entier positif n.*/
+function multiplication (nombre){
+    alert("La table de multiplication de " + nombre + " est : " +
+          "\n" + nombre + "x1 = " + nombre*1 +
+          "\n" + nombre + "x2 = " + nombre*2 +
+          "\n" + nombre + "x3 = " + nombre*3 +
+          "\n" + nombre + "x4 = " + nombre*4 +
+          "\n" + nombre + "x5 = " + nombre*5 +
+          "\n" + nombre + "x6 = " + nombre*6 +
+          "\n" + nombre + "x7 = " + nombre*7 +
+          "\n" + nombre + "x8 = " + nombre*8 +
+          "\n" + nombre + "x9 = " + nombre*9 +
+          "\n" + nombre + "x10 = " + nombre*10);
+    };
+
+var nombre = prompt("Veuillez entrer un nombre pour connaître sa table de multiplication...");
+
+multiplication(parseInt(nombre));
