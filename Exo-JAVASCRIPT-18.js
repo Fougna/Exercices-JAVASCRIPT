@@ -1,6 +1,6 @@
 /* Exercice JavaScript 18 (Conçu par Yoel Melki)
 
-1. Réalisez le même exercice que précédemment en faisant en sorte que lors de l’affichage :
+Réalisez le même exercice que précédemment en faisant en sorte que lors de l’affichage :
 • on affiche la taille des variables.
 • on affiche les variables en majuscules.
 • On affiche les variables en minuscules.

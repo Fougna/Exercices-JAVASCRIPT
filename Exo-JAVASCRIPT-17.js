@@ -46,8 +46,9 @@ var nbrobj = {
 var resultat2 = nbrobj.nombre1 + nbrobj.nombre2;
 alert("Juste pour rappel : " + nbrobj.nombre1 + " et " + nbrobj.nombre2 + " font toujours : " + resultat2);
 
-/*4. Exercice quasi identique au précédent, mais sans affecter nombre1 et nombre2 dans la source, mais en questionnant l'utilisateur pour connaitre les deux valeurs
-numériques nombre1 et nombre2, vous effectuerez les 4 opérations et donnerez 4 messages pour les résultats (addition, soustraction, multiplication et division).*/
+/*4. Exercice quasi identique au précédent, mais sans affecter nombre1 et nombre2 dans la source, mais en questionnant l'utilisateur pour connaitre les deux
+valeurs numériques nombre1 et nombre2, vous effectuerez les 4 opérations et donnerez 4 messages pour les résultats (addition, soustraction, multiplication et
+division).*/
 
 var nombre1 = prompt("Entrez un premier nombre", "Premier nombre");
 var nombre2 = prompt("Entrez un second nombre", "Second nombre");
