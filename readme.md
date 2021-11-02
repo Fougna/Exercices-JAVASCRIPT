@@ -8,4 +8,4 @@ FR : Ce sont des exercices basiques et intermédiaires visant à apprendre le la
 Les exercices 1 à 14 ont été imaginés par Amin Mangeot (https://fr.linkedin.com/in/amin-mangeot-5b4b44112) et les exercices 15 à 28 par Yoel Melki (https://fr.linkedin.com/in/yoelmelki).
 
 ---------------------------------------------------------------------------------
-Sébastien Ferran
+Sébastien Ferran (https://www.linkedin.com/in/sébastien-ferran-96a520a6/)
