@@ -98,3 +98,15 @@ var nombre = prompt("Veuillez entrer un nombre pour connaître sa table de multi
 multiplication(parseInt(nombre));
 
 /*8. Écrire un script qui permette de calculer la factorielle d'un nombre entier positif n.*/
+
+function factorielle (entier){
+    resultat = 1;
+    for (i=1 ; i<entier ; i++){
+        resultat = resultat*i;
+        alert ("La factorielle de " + entier + " est : " + resultat);
+    }
+};
+
+var entier = prompt("Veuillez entrer un nombre entier positif afin d'en connaître la factorielle...");
+
+factorielle(parseInt(entier));
