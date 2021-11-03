@@ -1,6 +1,7 @@
-# Exercice JavaScript 26 (Conçu par Yoel Melki)
+## Exercice JavaScript 26 (Conçu par Yoel Melki)
 
 ***1.	Expliquez la notion de langage client. Illustrez votre explication en donnant un exemple sur un site web. Enfin, décrivez les avantages et les inconvénients.***  
+
 ***2.	Décrivez le contexte de l’exécution du JavaScript. Illustrez votre explication en donnant un exemple sur un site web. Enfin, décrivez les avantages et les inconvénients.***
 ***3.	Expliquez le principe des objets. . Illustrez votre explication en donnant un exemple de plusieurs objets avec leur propriété, méthode et hiérarchie.***
 ***4.	Décrivez les trois façons pour intégrer des scripts JavaScript . Illustrez votre explication en donnant un exemple sur un site web. Enfin, décrivez les avantages et les inconvénients.***
