@@ -96,3 +96,5 @@ function multiplication (nombre){
 var nombre = prompt("Veuillez entrer un nombre pour connaître sa table de multiplication...");
 
 multiplication(parseInt(nombre));
+
+/*8. Écrire un script qui permette de calculer la factorielle d'un nombre entier positif n.*/

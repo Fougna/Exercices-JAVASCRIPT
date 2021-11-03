@@ -12,4 +12,4 @@ Vérifier que l'âge est > 18 et < 100 SI c'est ok on affiche dans la log OK si 
 3. Les boucles
 1 Afficher les nombre de 5 à 15.
 2 Afficher le symbole "" de 5 à 15 fois.
-3 Demandez à l'utilisateur un nombre entre 1 et 30 et afficher ce nombre de fois le symbole "" 
+3 Demandez à l'utilisateur un nombre entre 1 et 30 et afficher ce nombre de fois le symbole ""
