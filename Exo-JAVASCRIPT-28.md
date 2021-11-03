@@ -19,12 +19,12 @@
 [x]	Numeric  
 
 ***4. Cochez les phrases correctes concernant le code suivant :***  
-**function factorielle(x) {**
-**result=1;**
-**for (i=1;i<=x;i++) {**
-**result=result*i;**
-**console.log(result);**
-**}**
+**function factorielle(x) {**  
+**result=1;**  
+**for (i=1;i<=x;i++) {**  
+**result=result*i;**  
+**console.log(result);**  
+**}**  
 **return result;**  
 [x]	Ce code définit une fonction permettant de calcul la factorielle d’un nombre passé en paramètre  
 []	Lancer la fonction factorielle  
@@ -39,8 +39,8 @@
 [x]	Le DOM est un objet  
 
 ***6. Le code suivant affiche :***  
-**for(i=1;i<10;i++){**
-**console.log(i);**
+**for(i=1;i<10;i++){**  
+**console.log(i);**  
 **}**  
 []	Aucune donnée  
 [x]	Les chiffres de 1 à 9  
@@ -72,7 +72,7 @@
 []	Autant de fois que la boucle while  
 
 ***11. Cette instruction indique que :***  
-**document.getElementById("env").addEventListener("click", check, false);**
+**document.getElementById("env").addEventListener("click", check, false);**  
 [x]	Une fonction check est appelé lors de l’événement « click »  
 []	La fonction check ne peut être utilisé que dans le cadre de cette instruction  
 [x]	Uniquement l’évènement « click » peut être écouté pour activer la fonction check  
